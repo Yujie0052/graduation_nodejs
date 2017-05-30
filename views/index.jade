@@ -1,0 +1,47 @@
+extends head
+
+block content
+  //导航部分
+  nav(class="navbar navbar-default navbar-fixed-top navbar-inverse")
+    .container
+      .navbar-header
+        a(class="navbar-brand", href="#") ReadingVis
+      div(id="navbar", class="navbar-collapse collapse")
+        ul(class="nav navbar-nav")
+          li
+            a(href="#", id="btnAOI") 设置AOI
+          li
+            a(href="#", id="compleAOI") 完成设置
+          li
+            a(href="#") 按钮
+          li.dropdown
+            a(href="#", class="dropdown-toggle", data-toggle="dropdown", role="button", aria-haspopup="true",
+            aria-expanded="false") 选择
+              span.caret
+            ul.dropdown-menu
+              li
+                a(href="#") Action
+              li
+                a(href="#") Another action
+              li
+                a(href="#") Something else here
+              li(role="separator", class="divider")
+              li.dropdown-header Nav header
+              li
+                a(href="#") Separated link
+              li
+                a(href="#") One more separated link
+        ul(class="nav navbar-nav navbar-right")
+          li
+            a(href="#") 按钮
+          li
+            a(href="#") 按钮
+          li
+            a(href="#") 按钮
+              span.sr-only (current)
+
+  //内容区
+  .content
+    #paperArea.paper-area
+      img(src="images/paper.png")
+
