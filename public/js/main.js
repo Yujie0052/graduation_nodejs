@@ -16,6 +16,8 @@ $(function() {
             type: 'post',
             success: function (data) {
                 console.log(JSON.stringify(data['readSpeed']));
+                console.log(JSON.stringify(data['readCount']));
+                console.log(JSON.stringify(data['switchCount']));
             }
         });
 
