@@ -23,4 +23,8 @@ $(function() {
 
     });
 
+    $('#textAnalysis').on('click', function () {
+        $(this).attr('href', 'http://localhost:3000/test_tfidf');
+    });
+
 });
