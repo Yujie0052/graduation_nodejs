@@ -1,12 +1,12 @@
 function AoiGenerator(btnAOI, paperArea) {
-    
+
     var $btnAOI = btnAOI;
     var $paperArea = paperArea;
     var count = 1;
 
     var aoisCoordinate = [];    //保存每个aoi，aoi包含信息：左上角x坐标、y坐标，宽、高
     var beginX, beginY, width, height;
-    
+
 
     this.getAoisCoordinate = function () {
         return aoisCoordinate;
@@ -19,23 +19,33 @@ function AoiGenerator(btnAOI, paperArea) {
     };
 
     function createAOI() {
-        $paperArea.mousedown(drawAOI);
-        $paperArea.mouseup(completeDraw);
+        var $screenArea = $("<div></div>");
+        $screenArea.css({
+            "width": $paperArea.css('width'),
+            "height": $paperArea.css('height'),
+            "position": "absolute",
+            "left": "0px",
+            "top": "0px",
+            "opacity": 0.6,
+            "backgroundColor" : "grey",
+            "cursor" : "crosshair"
+        });
+        $paperArea.append($screenArea);
+        $screenArea.mousedown(drawAOI);
+        $screenArea.mouseup(completeDraw);
     }
 
     function drawAOI(event) {
         var e = event || window.event;
         var beginPos = {"x": e.pageX, "y": e.pageY};
-        var rect = createRect(beginPos);
-        $paperArea.append(rect);
+        var clipImg = createClipImage(beginPos);
+        $paperArea.append(clipImg);
 
         $paperArea.mousemove(function (moveEvent) {
             var rectWidth = moveEvent.pageX - beginPos.x,
                 rectHeight = moveEvent.pageY - beginPos.y;
-            rect.css({
-                "width": rectWidth + "px",
-                "height": rectHeight + "px"
-            });
+            clipImg.css("clip", "rect(" + beginPos.y + "px," +
+                moveEvent.pageX + "px," + moveEvent.pageY + "px," + beginPos.x + "px)");
 
             beginX = beginPos.x;
             beginY = beginPos.y;
@@ -56,21 +66,16 @@ function AoiGenerator(btnAOI, paperArea) {
         rect.xmax = beginX + width;
         rect.ymax = beginY + height;
         aoisCoordinate.push(rect);
-
-        // console.log('AOI的x坐标：' + rect.xmin + ', y坐标： ' + rect.ymin + ", 宽： " + width + ', 高：' + height);
-
     }
 
-    function createRect(beginPos) {
-        var rects = $("<div></div>");
-        rects.css({
-            "width": "0px",
-            "height": "0px",
+    function createClipImage(beginPos) {
+        var img = $("<img src='images/paper.png'/>");
+        img.css({
             "position": "absolute",
-            "border": "1px solid gray",
-            "left": beginPos.x + "px",
-            "top": beginPos.y + "px"
+            "left": "0px",
+            "top": "0px",
+            "clip" : "rect(" + beginPos.y + "px,0px,0px," + beginPos.x + "px)"
         });
-        return rects;
+        return img;
     }
 }

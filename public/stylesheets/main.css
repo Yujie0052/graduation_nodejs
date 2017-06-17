@@ -9,4 +9,20 @@ body {
     position: relative;
 }
 
+#force-container {
+    width: 707px;
+    height: 422px;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+    background-color: #ccc;
+}
 
+#annulus-container {
+    width:707px;
+    height: 261px;
+    position: fixed;
+    top: 51px;
+    right: 60px;
+    background-color: #ddd;
+}
