@@ -9,20 +9,29 @@ body {
     position: relative;
 }
 
+#annulus-container {
+    width: 400px;
+    height: 261px;
+    position: fixed;
+    top: 51px;
+    right: 367px;
+    background-color: #ddd;
+}
+
+#cloud-container {
+    width:307px;
+    height: 261px;
+    position: fixed;
+    top: 51px;
+    right: 60px;
+}
+
 #force-container {
     width: 707px;
     height: 422px;
     position: fixed;
     bottom: 0;
     right: 60px;
-    background-color: #ccc;
+    background-color: #eee;
 }
 
-#annulus-container {
-    width:707px;
-    height: 261px;
-    position: fixed;
-    top: 51px;
-    right: 60px;
-    background-color: #ddd;
-}

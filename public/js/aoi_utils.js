@@ -84,7 +84,7 @@ function AoiUtils() {
             return {'aoiID': index + 1, 'count': element};
         });
         return result;
-    }
+    };
 
 
     function jump(targetPoint, targetAoiID, aoisTimeInfo, result, leaveThreshold, stayThreshold) {

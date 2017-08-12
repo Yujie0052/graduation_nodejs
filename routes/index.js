@@ -6,10 +6,15 @@ var AoiUtils = require('../public/js/aoi_utils');
 var syncLoadCSV = require('../public/js/data_loader');
 var gm = require('gm');
 var AipOcr = require("aip-node-sdk-1.0.0").ocr;
-var sync = require('../public/js/sync_utils')
+var sync = require('../public/js/sync_utils');
 
 router.get('/', function (req, res, next) {
     res.render('index');
+});
+
+router.get('/get_tfidf_keywords', function (req, res, next) {
+    var words_tfidf = caculateTfidf(50);
+    res.send(words_tfidf);
 });
 
 router.post('/ajax_demo', function (req, res) {
@@ -118,7 +123,7 @@ function caculateTfidf(top) {
     var words_tfidf = analyzer.tfidf(doc);
 
     words_tfidf.sort(function (w1, w2) {
-        return Math.abs(w2.tfidf) - Math.abs(w1.tfidf);
+        return w2.tfidf - w1.tfidf;
     });
     return words_tfidf.slice(0, top);
 }
@@ -133,9 +138,20 @@ function gazeDataAnalyse(aoisCoordinate) {
 }
 
 router.get('/generate_corpus', function(req, res) {
-    var docCorpus = rf.readFileSync("public/data/corpus.txt", "utf-8").toString();
+    var corpus0 = rf.readFileSync("public/data/corpus0.txt", "utf-8").toString();
+    var corpus1 = rf.readFileSync("public/data/corpus1.txt", "utf-8").toString();
+    var corpus2 = rf.readFileSync("public/data/corpus2.txt", "utf-8").toString();
+    var corpus3 = rf.readFileSync("public/data/corpus3.txt", "utf-8").toString();
+    var corpus4 = rf.readFileSync("public/data/corpus4.txt", "utf-8").toString();
+    var corpus5 = rf.readFileSync("public/data/corpus5.txt", "utf-8").toString();
+    var corpus6 = rf.readFileSync("public/data/corpus6.txt", "utf-8").toString();
+    var corpus7 = rf.readFileSync("public/data/corpus7.txt", "utf-8").toString();
+    var corpus8 = rf.readFileSync("public/data/corpus8.txt", "utf-8").toString();
+    var corpus9 = rf.readFileSync("public/data/corpus9.txt", "utf-8").toString();
+    var corpus10 = rf.readFileSync("public/data/corpus10.txt", "utf-8").toString();
     var stopWords = rf.readFileSync('public/data/stop_words.txt', 'utf-8').toString().split(/\s+/);
-    var analyzer = tfidf.analyze([docCorpus], stopWords);
+    var analyzer = tfidf.analyze([corpus0, corpus1, corpus2, corpus3, corpus4,
+                                    corpus5, corpus6, corpus7, corpus8, corpus9, corpus10], stopWords);
     rf.writeFileSync("public/data/corpus_data.txt", analyzer.asJSON(), "utf-8");
     res.send('语料库生成成功!');
 });

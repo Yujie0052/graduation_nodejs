@@ -25,8 +25,34 @@ $(function() {
 
     });
 
+    function createRandomItemStyle() {
+        return {
+            normal: {
+                color: 'rgb(' + [
+                    Math.round(Math.random() * 160),
+                    Math.round(Math.random() * 160),
+                    Math.round(Math.random() * 160)
+                ].join(',') + ')'
+            }
+        };
+    }
+
+    $('#wordCloud').click(function() {
+       $.get(
+           'get_tfidf_keywords',
+           function(data) {
+               var wordCloudData = $.map(data, function (item) {
+                   return {name : item.term, value : item.tfidf, itemStyle : createRandomItemStyle()};
+               });
+               WordCloud('cloud-container', wordCloudData);
+           }
+       );
+        //new HeatMap('cloud-container');
+    });
+
     $('#textAnalysis').on('click', function () {
-        $(this).attr('href', 'http://localhost:3000/test_tfidf');
+        // $(this).attr('href', 'http://localhost:3000/test_tfidf');
+        $(this).attr('href', '/get_tfidf_keywords');
     });
 
     function tick() {
@@ -44,8 +70,8 @@ $(function() {
         var switchCount = data.gazeData.switchCount;
         var edges = [];
         for (jump in switchCount) {
-            var source = parseInt(jump.split('->')[0]);
-            var target = parseInt(jump.split('->')[1]);
+            var source = parseInt(jump.split('->')[0]) - 1;
+            var target = parseInt(jump.split('->')[1]) - 1;
             edges.push({source : source, target : target});
         }
 
@@ -64,7 +90,7 @@ $(function() {
             .links(edges)
             .size([width, height])
             .charge(-400)
-            .linkDistance(180)
+            .linkDistance(200)
             .start();
 
         var circles = svg.selectAll('circle')
@@ -89,6 +115,9 @@ $(function() {
                     return 1 + Math.round(Math.random() * 3);
                 }
             });
+
+        var linetext = svg.selectAll('.linetext')
+            .data()
 
         force.on('tick', function () {
             circles.attr({

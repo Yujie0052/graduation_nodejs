@@ -1,0 +1,77 @@
+
+BIZ & IT TECH SCIENCE POLICY CARS GAMING & CULTURE FORUMS
+SIGN IN
+STARTING MS-DOS... —
+The complete history of the IBM PC, part one: The deal of the century
+Bill Gates, mysterious deaths, and the business machine that sparked a home revolution.
+
+JIMMY MAHER (UK) - 6/30/2017, 10:02 PM
+Nota bene: This is the first part of an epic, 8,000-word history of the IBM PC. You can find part two of the story over here.
+The original IBM PC 5150, with a printer, introduced in August 1981. This wasn't really the first IBM personal computer, however... (read part one of the story to find out more).  SSPL/Getty Images
+The IBM 5100 portable computer (PC, eh!), released in 1974.  https://en.wikipedia.org/wiki/IBM_5100#/media/File:IBM_5100_-_MfK_Bern.jpg
+The IBM 5110—a slight upgrade over the 5100.  Daderot
+The System/23 Datamaster—again, not quite a PC... but getting there!
+
+One could claim that the IBM PC was not really IBM's first PC at all. In September 1975 the company introduced the IBM 5100, its first "portable" computer. ("Portable" meant that it weighed just 55 pounds and you could buy a special travel case to lug it around in.)
+
+The 5100 was not technically a microcomputer; it used a processor IBM had developed in-house called the PALM which was spread over an entire circuit board rather than being housed in a single microchip. From the end user's standpoint, however, that made little difference; certainly it would seem to qualify as a personal computer if not a microcomputer. It was a self-contained, Turing complete, programmable machine no larger than a suitcase, with a tape drive for loading and saving programs, a keyboard, and a 5-inch screen all built right in along with 16K or more of RAM.
+
+What made the 5100 feel different from the first wave of PCs were its price and its promoted purpose. The former started at around $10,000 and could quickly climb to the $20,000 range. As for the latter: IBM pushed the machine as a serious tool for field engineers and the like in remote locations where they couldn't access IBM's big machines, not as anything for fun, education, hacking, or even office work.
+
+The last of these at least changed with two later iterations of the concept, the 5110 and 5120, which were advertised as systems suitable for the office, with accounting, database, and even word processing applications available. Still, the prices remained very high, and actually outfitting one for this sort of office work would entail connecting it to a free-standing disk array that was larger than the machine itself, making the system look and feel more like a minicomputer and less like a PC.
+
+An archive photo from IBM showing the System/23 Datamaster, and presumably some university students.
+Enlarge / An archive photo from IBM showing the System/23 Datamaster, and presumably some university students.
+It's nevertheless telling that, although it was almost never referred to by this name, the IBM PC when it finally arrived had the official designation of (with apologies to Van Halen) the IBM 5150, a continuation of the 5100 line of portable computers rather than an entirely new thing—this even though it shared none of the architecture of its older siblings.
+
+In February of 1978 IBM began working on its first microcomputer—and it still wasn't the IBM PC. It was a machine called the System/23 Datamaster.
+
+Designed once again for an office environment, the Datamaster was built around an Intel 8085 microprocessor. It was large and heavy (95 pounds), and still cost in the $10,000 range, which combined with its very business-oriented, buttoned-down personality continued to make it feel qualitatively different from machines like the Apple II. Yet it was technically a microcomputer. IBM was a huge company with a legendarily labyrinthine bureaucracy, meaning that projects could sometimes take an inordinately long time to complete. Despite the Datamaster project predating the PC project by two years, the former didn't actually come out until July of 1981, just in time to have its thunder stolen by the announcement of the IBM PC the following month. Still, if the question of IBM's first microcomputer ever comes up in a trivia game, there's your answer.
+
+The Atari VCS (2600)—which, believe it or not, is involved with the genesis of the IBM PC.
+Enlarge / The Atari VCS (2600)—which, believe it or not, is involved with the genesis of the IBM PC.
+Robee Shepherd
+OK, now the story really begins
+
+FURTHER READING
+A history of the Amiga, part 1: Genesis
+The machine that would become known as the real IBM PC begins, of all places, at Atari. Apparently feeling their oats in the wake of the Atari VCS' sudden Space Invaders-driven explosion in popularity and the release of its own first PCs, the Atari 400 and 800, they made a proposal to IBM's chairman Frank Cary in July of 1980: if IBM wished to have a PC of its own, Atari would deign to build it for them.
+Far from being the hidebound mainframer that he’s often portrayed as, Cary was actually something of a champion of small systems—even if "small systems" in the context of IBM often meant something quite different from what it meant to the outside world. Cary turned the proposal over to IBM's Director of (data) Entry Systems, Bill Lowe, based out of Boca Raton, Florida. Lowe in turn took it to IBM's management committee, who pronounced it "the dumbest thing we've ever heard of." (Indeed, IBM and Atari make about the oddest couple imaginable.) But at the same time, everyone knew that Lowe was acting at the personal behest of the chairman, not something to be dismissed lightly if they cared at all about their careers. So they told Lowe to assemble a team to put together a detailed proposal for how IBM could build a PC themselves—and to please come back with it in just one month.
+
+Lowe assembled a team of twelve or thirteen (sources vary) to draft the proposal. In defiance of all IBM tradition, he deliberately kept the team small, the management structure informal, hoping to capture some of the hacker magic that had spawned PCs in the first place. His day-to-day project manager, Don Estridge, said, "If you're competing against people who started in a garage, you have to start in a garage."
+
+One might have expected IBM, the Goliath of the computer industry, to bludgeon its way into the PC market. Even as they congratulated themselves for having built this new market using daring, creativity, and flexibility stolid IBM could not hope to match, many PC players lived in a sort of unvoiced dread of exactly this development. IBM, however, effectively decided to be a good citizen, to look at what was already out there, and talk to those who had built the PC market to find out what was needed, where a theoretical IBM PC might fit.
+
+In that spirit, Jack Sams, head of software development, recommended that they talk to Microsoft. Sams was unusually aware of the PC world for an IBMer; he had actually strongly pressed for IBM to buy the BASIC for the Datamaster from Microsoft, but had been overruled in favour of an in-house effort. "It just took longer and cost us more," he later said. Sams called Bill Gates on July 21, 1980, asking if he (Sams) could drop by its Seattle office the next day for a friendly chat about PCs. "Don't get too excited, and don't think anything big is about to happen," he said.
+
+This is Bill Gates in 1984, aged 29. Now imagine how young he looked four years before this image in 1980, the year our story takes place.
+Enlarge / This is Bill Gates in 1984, aged 29. Now imagine how young he looked four years before this image in 1980, the year our story takes place.
+Ann E. Yow-Dyson/Getty Images
+Gates and Steve Ballmer, his right-hand man and the only one in this company of hackers with a business education, nevertheless both realised that this could be very big indeed. When Sams arrived with two corporate types in tow to function largely as "witnesses," Gates came out personally to meet them. (Sams initially assumed that Gates, who still had the face, physique, and voice of a twelve-year-old, was the office boy.) Sams immediately whipped out the non-disclosure agreement that was standard operating procedure for IBM.
+"IBM didn't make it easy,” Gates recalled later. “You had to sign all these funny agreements that sort of said IBM could do whatever they wanted, whenever they wanted, and use your secrets however they felt. So it took a little bit of faith." Nevertheless, he signed it immediately.
+
+Sams wanted to get a general sense of the PC market from Gates, a man who was as intimately familiar with it as anyone. In this respect, Gates was merely one of a number of prominent figures he spoke with. However, he also had an ulterior motive: to see just what kind of shop Gates was running, to try to get a sense of whether Microsoft might be a resource his team could use. He was very impressed.
+
+After consulting with Gates and others, Lowe presented on August 8 a proposal for the machine that IBM should build. Many popular histories, such as the old PBS documentary Triumph of the Nerds, give the impression that the IBM PC was just sort of slapped together in a mad rush. Actually, a lot of thought went into the design. There were two very interesting aspects.
+
+Listing image by SSPL/Getty Images
+
+Page: 1 2 3 Next →
+READER COMMENTS
+122
+SHARE THIS STORY
+← PREVIOUS STORY
+NEXT STORY →
+Related Stories
+Today on Ars
+RSS FEEDS
+VIEW MOBILE SITE
+VISIT ARS TECHNICA UK
+ABOUT US
+CONTACT US
+STAFF
+ADVERTISE WITH US
+REPRINTS
+CNMN Collection
+WIRED Media Group
+Use of this Site constitutes acceptance of our User Agreement (effective 1/2/14) and Privacy Policy (effective 1/2/14), and Ars Technica Addendum (effective 5/17/2012). Your California Privacy Rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
