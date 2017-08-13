@@ -15,7 +15,6 @@ body {
     position: fixed;
     top: 51px;
     right: 367px;
-    background-color: #ddd;
 }
 
 #cloud-container {
@@ -32,6 +31,14 @@ body {
     position: fixed;
     bottom: 0;
     right: 60px;
-    background-color: #eee;
+}
+
+#heat-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 673px;
+    height: 871px;
+    display: none;
 }
 

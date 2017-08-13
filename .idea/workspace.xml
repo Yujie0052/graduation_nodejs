@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78045c9-60c6-4ce8-a17f-927bf2b9652b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus10.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus6.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus7.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus8.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/corpus9.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/word_cloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/chord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/eventRiver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/force.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/k.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/scatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/venn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/chart/wordCloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/echarts/echarts.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/data/test_en1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/data/test_en2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/000.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/aoi_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/timg-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/timg.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/data/corpus.txt" afterPath="$PROJECT_DIR$/public/data/corpus0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/pie_and_force.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/aoi_1.png" afterPath="$PROJECT_DIR$/public/images/aoi_1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/data/corpus_data.txt" afterPath="$PROJECT_DIR$/public/data/corpus_data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/aoi_utils.js" afterPath="$PROJECT_DIR$/public/js/aoi_utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/aoi_generator.js" afterPath="$PROJECT_DIR$/public/js/aoi_generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/heatmap.js" afterPath="$PROJECT_DIR$/public/js/heatmap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/word_cloud.js" afterPath="$PROJECT_DIR$/public/js/word_cloud.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/head.jade" afterPath="$PROJECT_DIR$/views/head.jade" />
@@ -77,11 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="word_cloud.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/word_cloud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc;n#WordCloud#0" expanded="false" />
               </folding>
@@ -92,18 +60,60 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <file leaf-file-name="pie_and_force.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/pie_and_force.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="219">
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc;n#PieAndForce#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heatmap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/heatmap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" column="23" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corpus4.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/data/corpus4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="11431" column="0" selection-start-line="11431" selection-start-column="0" selection-end-line="11431" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,8 +122,8 @@
       <file leaf-file-name="head.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/head.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -160,7 +170,6 @@
         <option value="$PROJECT_DIR$/public/data/stop_words.txt" />
         <option value="$PROJECT_DIR$/public/js/data_loader.js" />
         <option value="$PROJECT_DIR$/public/data/corpus_data.txt" />
-        <option value="$PROJECT_DIR$/public/js/aoi_generator.js" />
         <option value="$PROJECT_DIR$/public/js/sync_utils.js" />
         <option value="$PROJECT_DIR$/public/js/forceGraph.js" />
         <option value="$PROJECT_DIR$/public/js/aoi_utils.js" />
@@ -175,13 +184,17 @@
         <option value="$PROJECT_DIR$/public/data/corpus8.txt" />
         <option value="$PROJECT_DIR$/public/data/corpus9.txt" />
         <option value="$PROJECT_DIR$/public/data/corpus10.txt" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/public/js/heatmap.js" />
-        <option value="$PROJECT_DIR$/views/head.jade" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/public/js/word_cloud.js" />
+        <option value="$PROJECT_DIR$/public/js/force.js" />
+        <option value="$PROJECT_DIR$/public/js/pie.js" />
+        <option value="$PROJECT_DIR$/views/head.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/public/js/pie_and_force.js" />
+        <option value="$PROJECT_DIR$/public/js/aoi_generator.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -197,8 +210,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="341" />
-    <option name="y" value="63" />
+    <option name="x" value="92" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="831" />
   </component>
@@ -323,11 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="echarts" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,6 +351,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,12 +492,12 @@
       <workItem from="1501901762282" duration="5288000" />
       <workItem from="1502186473418" duration="1027000" />
       <workItem from="1502415683879" duration="181000" />
-      <workItem from="1502416743830" duration="10013000" />
+      <workItem from="1502416743830" duration="27589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163840000" />
+    <option name="totallyTimeSpent" value="181416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,19 +509,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="63" width="1280" height="831" extended-state="0" />
+    <frame x="92" y="23" width="1280" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16123907" sideWeight="0.62271065" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18665607" sideWeight="0.62271065" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32678822" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17158931" sideWeight="0.50277996" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.486676" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16123907" sideWeight="0.37728938" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819074" sideWeight="0.49245432" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23422159" sideWeight="0.4910645" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17110799" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16123907" sideWeight="0.37728938" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40392706" sideWeight="0.4910645" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37868163" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16123907" sideWeight="0.37728938" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -523,20 +550,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/aoi_3.png" />
-    <entry file="file://$PROJECT_DIR$/public/images/aoi_5.png" />
-    <entry file="file://$PROJECT_DIR$/public/images/aoi_6.png" />
     <entry file="file://$PROJECT_DIR$/public/js/kdtree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-545">
           <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/aoi_generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -555,18 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/aoi_1.png" />
     <entry file="file://$PROJECT_DIR$/public/js/sync_utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/data_loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -596,14 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/corpus4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4240">
-          <caret line="11431" column="0" selection-start-line="11431" selection-start-column="0" selection-end-line="11431" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -728,57 +729,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/lib/echarts.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1504">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/heatmap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1927">
-          <caret line="54" column="26" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/lib/echarts/echarts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1437743322000" expanded="true" signature="83259:83275" ph="..." />
-            <marker date="1437743322000" expanded="true" signature="83353:83387" ph="..." />
-            <marker date="1437743322000" expanded="true" signature="83408:83425" ph="..." />
-            <marker date="1437743322000" expanded="true" signature="161397:161482" ph="..." />
-            <marker date="1437743322000" expanded="true" signature="294467:294527" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,34 +817,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/js/data_loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+    <entry file="file://$PROJECT_DIR$/public/lib/echarts/chart/heatmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1020" selection-start-line="0" selection-start-column="1020" selection-end-line="0" selection-end-column="1020" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/aoi_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/echarts/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1437743322000" expanded="true" signature="83259:83275" ph="..." />
+            <marker date="1437743322000" expanded="true" signature="83353:83387" ph="..." />
+            <marker date="1437743322000" expanded="true" signature="83408:83425" ph="..." />
+            <marker date="1437743322000" expanded="true" signature="161397:161482" ph="..." />
+            <marker date="1437743322000" expanded="true" signature="294467:294527" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/head.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/aoi_generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/pie_and_force.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc;n#PieAndForce#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/force.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/heatmap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/corpus4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="11431" column="0" selection-start-line="11431" selection-start-column="0" selection-end-line="11431" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/word_cloud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc;n#WordCloud#0" expanded="false" />
           </folding>

@@ -13,8 +13,13 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/get_tfidf_keywords', function (req, res, next) {
-    var words_tfidf = caculateTfidf(50);
+    var words_tfidf = caculateTfidf(100);
     res.send(words_tfidf);
+});
+
+router.get('/get_origin_data', function (req, res, next) {
+    var originData = syncLoadCSV()
+    res.send(originData);
 });
 
 router.post('/ajax_demo', function (req, res) {
@@ -41,7 +46,7 @@ function cropImageClosure(context, callback) {
         var height = aoi.ymax - aoi.ymin;
 
         gm('public/images/paper.png').crop(width, height, aoi.xmin, aoi.ymin)
-            .write('public/images/aoi_' + aoi.id + '.png', function (err) {
+            .write('public/images/AOI' + aoi.id + '.png', function (err) {
                 if (err) {
                     console.log(JSON.stringify(err));
                 }
@@ -63,12 +68,12 @@ function ocrClosure(context, callback) {
         var index = context.index;
 
         var aoi = aoisCoordinate[index];
-        var image = rf.readFileSync('public/images/aoi_' + aoi.id + '.png');
+        var image = rf.readFileSync('public/images/AOI' + aoi.id + '.png');
         var base64Img = new Buffer(image).toString('base64');
 
         client.generalBasic(base64Img).then(function(result) {
             var count = tfidfWordCount(result);
-            context.tfidfCount.push({'id' : aoi.id, 'count' : count});
+            context.tfidfCount.push({'aoiID' : aoi.id, 'count' : count});
 
             if (index < aoisCoordinate.length - 1) {
                 context.index = index + 1;
@@ -101,7 +106,6 @@ function tfidfWordCount(result) {
     });
     return count;
 }
-
 
 function initOcrClient() {
     // 设置APPID/AK/SK

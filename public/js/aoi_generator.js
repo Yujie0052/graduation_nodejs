@@ -66,6 +66,19 @@ function AoiGenerator(btnAOI, paperArea) {
         rect.xmax = beginX + width;
         rect.ymax = beginY + height;
         aoisCoordinate.push(rect);
+
+        var opaqueDiv = $('<div></div>');
+        opaqueDiv.html('AOI' + rect.id);
+        opaqueDiv.css({
+            'position': 'absolute',
+            'top': beginY,
+            'left': beginX,
+            'width': width,
+            'height': height,
+            'text-align': 'center',
+            'color': 'red'
+        });
+        $paperArea.append(opaqueDiv);
     }
 
     function createClipImage(beginPos) {
